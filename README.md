@@ -1,10 +1,14 @@
 # Lucky-Birthday-mark11
 #### mark11-neogcamp
 
-
+## Description
 User can determine whether his birthday is lucky or not by entering your birthday and lucky number.
 
-
+## Tech Stack
+- HTML
+- CSS
+- JavaScritpt
+### Live Project
 * [LIVE PROJECT](https://check-lucky-birthday.netlify.app/)
 
 
