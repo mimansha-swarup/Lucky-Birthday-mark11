@@ -6,7 +6,7 @@
  const crossbtn = document.querySelector("#cut")
 
 
- const luckCheck = (sum) => {
+ const luckCheck = sum => {
      const luckyNo = Number(luckyValue.value);
      if (sum % luckyNo === 0) {
          resultCont.innerHTML = `
@@ -35,7 +35,7 @@
      luckCheck(sum)
  }
 
- const CalculateSum = (dob) => {
+ const CalculateSum = dob => {
      dob = dob.replaceAll("-", "")
      console.log(dob)
      var sum = 0
